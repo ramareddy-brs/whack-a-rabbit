@@ -3,37 +3,37 @@
     --chathams_blue: #1A4B84;
     --tamarillo: #991E14;
     --yellow_sea: #FEAD06;
-}
-
-* {
+  }
+  
+  * {
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     background-color: #f4f4f4;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: var(--primary-color);
-}
-
-p {
+  }
+  
+  p {
     text-align: center;
-}
-
-
-
-.currency {
+  }
+  
+  
+  
+  .currency {
     padding: 40px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.currency select {
+  }
+  
+  .currency select {
     padding: 10px 20px 10px 10px;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -45,138 +45,140 @@ p {
     background-position: right 10px top 50%, 0, 0;
     background-size: 12px auto, 100%;
     background-repeat: no-repeat;
-}
-
-.currency input {
+  }
+  
+  .currency input {
     border: 0;
     background: transparent;
     font-size: 30px;
     text-align: right;
-}
-
-.swap-rate-container {
+  }
+  
+  .swap-rate-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.rate {
+  }
+  
+  .rate {
     color: var(--primary-color);
     font-size: 14px;
     padding: 0 10px;
-}
-
-select:focus,
-input:focus,
-button:focus {
+  }
+  
+  select:focus,
+  input:focus,
+  button:focus {
     outline: 0;
-}
-
-@media (max-width: 600px) {
+  }
+  
+  @media (max-width: 600px) {
     .currency input {
         width: 200px;
     }
-}
-
-
-/* NAVBAR STYLING STARTS */
-
-.nav-links a {
+  }
+  
+  
+  /* NAVBAR STYLING STARTS */
+  
+  .nav-links a {
     color: #fff;
-}
-
-/* Header Styles
+  }
+  
+  /* Header Styles
   -------------------------------------------------- */
-
-header .bg-gradient {
+  
+  header .bg-gradient {
     background: rgb(216, 216, 216);
-}
-
-body {
+  }
+  
+  body {
     background: url("../img/BG.png");
     background-size: cover;
-}
-
-header .navbar {
+  }
+  
+  header .navbar {
     padding: 20px 0 0;
-}
-
-header .navbar-brand {
+  }
+  
+  header .navbar-brand {
     padding: 0;
     z-index: 1;
     width: 213px;
     height: 109px;
     background-color: var(--primary-color);
-}
-
-header .navbar-brand img {
+  }
+  
+  header .navbar-brand img {
     width: 56px;
-}
-
-img {
+  }
+  
+  img {
     max-width: 100%;
-}
-
-header h3 {
+  }
+  
+  header h3 {
     font: normal normal 600 18px/27px Oswald;
     color: #fff;
-}
-
-header h4 {
-    font: normal normal 600 18px/28px Oswald;
+  }
+  
+  header h4 {
+    font: 20px Oswald;
     letter-spacing: 0.36px;
     color: #191919;
     text-transform: uppercase;
-}
-
-header p {
-    font: 600 12px/15px Poppins;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  
+  header p {
+    font: 16px Poppins;
     letter-spacing: 0.24px;
     color: #191919;
-}
-
-.ReactTitle {
+  }
+  
+  .ReactTitle {
     background-color: #838383;
     height: 50px;
     font: normal normal 600 19px/27px Oswald;
     letter-spacing: 0.38px;
     color: #FFFFFF;
     text-transform: uppercase;
-}
-
-.ReactTitle img {
+  }
+  
+  .ReactTitle img {
     width: 25px;
     margin-right: 10px;
-}
-
-
-.link {
+  }
+  
+  
+  .link {
     background-color: rgba(0, 0, 0, 0.09);
     font: normal normal medium 12px/15px Poppins;
     letter-spacing: 0.24px;
     height: 40px;
     padding: 10px 10px;
-
-}
-
-.link a {
+  
+  }
+  
+  .link a {
     color: #055BA6;
-
-}
-
-/* Sticky footer styles
+  
+  }
+  
+  /* Sticky footer styles
   -------------------------------------------------- */
-html {
+  html {
     position: relative;
     min-height: 100%;
-}
-
-body {
+  }
+  
+  body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-}
-
-.footer {
+  }
+  
+  .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -185,42 +187,42 @@ body {
     line-height: 60px;
     /* Vertically center the text there */
     background-color: #f5f5f5;
-}
-
-
-/* Custom page CSS
+  }
+  
+  
+  /* Custom page CSS
   -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body>.container {
+  /* Not required for template or sticky footer method. */
+  
+  body>.container {
     padding: 60px 15px 0;
-}
-
-.footer>.container {
+  }
+  
+  .footer>.container {
     padding-right: 15px;
     padding-left: 15px;
-}
-
-code {
+  }
+  
+  code {
     font-size: 80%;
-}
-
-.footer-dark {
+  }
+  
+  .footer-dark {
     background-color: var(--primary-color);
     color: #fff;
-}
-
-.toggle-currency {
+  }
+  
+  .toggle-currency {
     font-size: 20px;
-}
-
-footer {
+  }
+  
+  footer {
     font: normal normal 600 12px/19px Oswald;
     letter-spacing: 0.24px;
     color: #FFFFFF;
-}
-
-.theme-switch {
+  }
+  
+  .theme-switch {
     margin: 0 5px;
     padding: 10px;
     font-size: 0.5rem;
@@ -229,28 +231,29 @@ footer {
     width: 20px;
     height: 20px;
     cursor: pointer;
-}
-
-.theme-switch-chathams_blue {
+  }
+  
+  .theme-switch-chathams_blue {
     background-color: var(--chathams_blue);
-}
-
-.theme-switch-chathams_blue:hover {
+  }
+  
+  .theme-switch-chathams_blue:hover {
   box-shadow: 2px 2px 2px var(--chathams_blue);
-}
-
-.theme-switch-tamarillo {
+  }
+  
+  .theme-switch-tamarillo {
     background-color: var(--tamarillo);
-}
-
-.theme-switch-tamarillo:hover {
+  }
+  
+  .theme-switch-tamarillo:hover {
   box-shadow: 2px 2px 2px var(--tamarillo);
-}
-
-.theme-switch-yellow_sea {
+  }
+  
+  .theme-switch-yellow_sea {
     background-color: var(--yellow_sea);
-}
-
-.theme-switch-yellow_sea:hover {
+  }
+  
+  .theme-switch-yellow_sea:hover {
   box-shadow: 2px 2px 2px var(--yellow_sea);
-}
+  }
+  
